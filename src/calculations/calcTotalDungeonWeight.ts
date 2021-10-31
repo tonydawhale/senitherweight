@@ -1,5 +1,5 @@
 import {calcIndividualDungeonWeight} from "../util/Dungeon/calcIndividualDungeonWeight";
-
+import { dungeonsWeightReturn } from "../types/generatorTypes";
 
 /**
  * Fetches the skill weight from a profile derived from the Hypixel api.

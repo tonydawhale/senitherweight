@@ -72,3 +72,34 @@ export interface slayerWeightReturn {
         weight_overflow: number
     }
 }
+
+/** @internal */
+export interface dungeonsWeightReturn {
+    total: number
+    weight: number
+    overflow: number
+    catacombs: {
+        weight: number
+        weight_overflow: number
+    }
+    healer: {
+        weight: number
+        weight_overflow: number
+    }
+    mage: {
+        weight: number
+        weight_overflow: number
+    }
+    berserker: {
+        weight: number
+        weight_overflow: number
+    }
+    archer: {
+        weight: number
+        weight_overflow: number
+    }
+    tank: {
+        weight: number
+        weight_overflow: number
+    }
+}
