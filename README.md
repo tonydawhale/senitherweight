@@ -6,7 +6,9 @@ The npm-senitherweight package is a typescript package that takes Hypixel Skyblo
 - [Senither](https://github.com/Senither) - Creator of the weight formulas
 
 ## Installation 
-
+```
+npm i senitherweight
+```
 ## Usage
 ### Total Weight Methods
 Returns an object of total weight values for a player's profile given a Skyblock profile as a parameter.
