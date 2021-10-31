@@ -185,3 +185,5 @@ const dungeonWeight = senither.totalDungeonWeight(profile)
     }
 }
 ```
+## License
+The senitherweight package is open-sourced software licensed under the [MIT License](https://opensource.org/licenses/MIT)
