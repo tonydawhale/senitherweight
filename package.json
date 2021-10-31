@@ -1,0 +1,38 @@
+{
+  "name": "senitherweight",
+  "version": "1.0.0",
+  "description": "Hypixel Skyblock Senither Weight Calculator",
+  "license": "MIT",
+  "homepage": "https://github.com/tonydawhale/senitherweight#readme",
+  "contributors": [
+    "tonydawhale",
+    "nick"
+  ],
+  "keywords": [
+    "hypixel",
+    "skyblock",
+    "weight",
+    "senither"
+  ],
+  "main": "build/index.js",
+  "scripts": {
+    "start": "npm run build && node build/index.js",
+    "build": "rimraf build && tsc -p tsconfig.json"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tonydawhale/senitherweight.git"
+  },
+  "bugs": {
+    "url": "https://github.com/tonydawhale/senitherweight/issues"
+  },
+  "devDependencies": {
+    "@tsconfig/node16": "^1.0.2",
+    "rimraf": "^3.0.2",
+    "typescript": "^4.3.5"
+  },
+  "dependencies": {
+    "@types/klaw": "^3.0.2",
+    "klaw": "^3.0.0"
+  }
+}
