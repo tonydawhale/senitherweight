@@ -9,9 +9,9 @@ import { calcIndividualSkillWeight } from "../util/Skill/calcIndividualSkillWeig
  * @returns {total: number, weight: number, overflow: number}
  * {total: number, weight: number, overflow: number}
  * @example
- * const combatWeight = skillWeight(skillTypes.COMBAT, 25000)
+ * const combatWeight = skillWeight("combat", 25000)
  */
-export function skillWeight (skillType: string, xp: number) {
+export function skillWeight (skillType: "mining" | "foraging" | "enchanting" | "farming" | "combat" | "fishing" | "alchemy" | "taming", xp: number) {
     const data = calcIndividualSkillWeight(xp, skillType)
     const total = data.weight + data.weight_overflow || 0
 

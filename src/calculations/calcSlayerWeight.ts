@@ -8,9 +8,9 @@ import {calcIndividualSlayerWeight} from "../util/Slayer/calcIndividualSlayerWei
  * @returns {total: number, weight: number, overflow: number}
  * {total: number, weight: number, overflow: number}
  * @example
- * const svenWeight = slayerWeight(slayerTypes.SVEN, 25000)
+ * const svenWeight = slayerWeight("sven", 25000)
  */
-export function slayerWeight (slayerType: string, xp: number) {
+export function slayerWeight (slayerType: "revenant" | "tarantula" | "sven" | "enderman", xp: number) {
     const data = calcIndividualSlayerWeight(xp, slayerType)
     const total = data.weight + data.weight_overflow
 

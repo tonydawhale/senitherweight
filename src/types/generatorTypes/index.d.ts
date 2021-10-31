@@ -103,3 +103,9 @@ export interface dungeonsWeightReturn {
         weight_overflow: number
     }
 }
+/** @internal */
+export interface totalWeightReturn {
+    total: number
+    weight: number
+    overflow: number
+}

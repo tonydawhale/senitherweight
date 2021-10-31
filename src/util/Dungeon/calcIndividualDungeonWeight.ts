@@ -3,6 +3,7 @@ import {getDungeonLevel} from "./getDungeonLevel";
 
 let level50Experience = 569809640
 
+/**@internal*/
 export function calcIndividualDungeonWeight (type: string, experience: number) {
     let level = getDungeonLevel(experience) as number || 0
     let percentageModifier = dungeonWeightGroup[type]
