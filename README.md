@@ -1,6 +1,11 @@
 # senitherweight package
 ## Basic Details
-The npm-senitherweight package is a package that takes Hypixel Skyblock API data and returns the player's senither weight.
+The npm-senitherweight package is a typescript package that takes Hypixel Skyblock API data and returns the player's senither weight. The package does not make the api calls so if an api call is required as a parameter, you will have to do that on your own.
+
+## Credits
+- [Senither](https://github.com/Senither) - Creator of the weight formulas
+
+## Installation 
 
 ## Usage
 ### Total Weight Methods
