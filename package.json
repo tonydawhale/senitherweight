@@ -1,6 +1,6 @@
 {
   "name": "senitherweight",
-  "version": "1.0.0",
+  "version": "1.0.8",
   "description": "Hypixel Skyblock Senither Weight Calculator",
   "license": "MIT",
   "homepage": "https://github.com/tonydawhale/senitherweight#readme",
@@ -14,6 +14,7 @@
     "weight",
     "senither"
   ],
+  "typings": "./src/types/index.d.ts",
   "main": "build/index.js",
   "scripts": {
     "start": "npm run build && node build/index.js",
